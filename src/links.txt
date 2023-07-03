@@ -1,0 +1,9 @@
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+
+
+logout
+<i class="fa-solid fa-right-from-bracket"></i>&nbsp;&nbsp; Logout
+<i class="fa-sharp fa-solid fa-laptop"></i>&nbsp;&nbsp;  Login to chat
+
+hide
+<i class="fa-solid fa-eye-slash"></i>

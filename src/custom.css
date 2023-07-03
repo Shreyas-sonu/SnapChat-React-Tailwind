@@ -1,0 +1,39 @@
+#hide{
+    animation: hide;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes hide{
+    0%{
+        top: 0;
+    }
+    20%{
+        transform: translateY(100px);
+    }
+    40%{
+        transform: translateY(-1px);
+    }
+    60%{
+        transform: translateY(100px);
+    }
+    80%{
+        transform: translateY(-1px);
+    }
+}
+#footer a{
+    transition: 0.3s all ease-in-out ;
+}
+#footer a:hover{
+    transition: 0.5s all ease-in-out ;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+button{
+    transition: 0.2 s all ease-in-out;
+}
+button:hover{
+    transform: translateY(-1px);
+    transition: ease;
+    box-shadow: 2px 2px 2px 10px rgba(42, 41, 41, 0.066);
+}
